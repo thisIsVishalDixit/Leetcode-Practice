@@ -7,7 +7,8 @@
  */
 struct ListNode* middleNode(struct ListNode* head){
     struct ListNode *ptr = head;
-    int ctr = 0, ind =0;
+    int ctr = 0;
+    int ind =0;
 
     while (ptr != NULL) {
         ptr = ptr -> next;
